@@ -134,3 +134,9 @@
 
 % Bibliography
 \usepackage[backend=biber,style=science, maxcitenames=1, maxbibnames=1, isbn=false, sorting=none,doi=true,url=false]{biblatex}
+% Tighten the bibliography for the poster References box. \setlist{nosep} only
+% affects itemize/enumerate, not the biblatex list -- so without this the
+% References box gets a large leading gap (top white space) and runs off the
+% page bottom. Kill the list's leading skip and compress inter-entry spacing.
+\setlength{\bibitemsep}{2pt}
+\AtBeginBibliography{\vspace*{-0.7cm}}
