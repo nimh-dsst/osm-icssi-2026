@@ -1,0 +1,54 @@
+{
+  "title": "Who Funds Open Science? Tracking Data Sharing in Publications Across Major Funders (ICSSI 2026 poster)",
+  "upload_type": "poster",
+  "description": "<p>A0 portrait poster presented at the 4th International Conference on the Science of Science &amp; Innovation (ICSSI 2026), University of Colorado Boulder, 29 June - 1 July 2026. It reports a cross-sectional analysis of open data sharing across ~784,000 open access biomedical research articles (January 2024 - June 2025), benchmarking open-data rates across major funders and journals using a PDF-first detection pipeline (MinerU + oddpub v7.2.3) with OpenAlex metadata. Observed rates are census-exact corpus proportions; corrected-rate uncertainty is reported as 95% imputation intervals.</p><p>This record archives the poster source, figures, and figure-generation code, alongside the conference extended abstract. The underlying analysis pipeline, datasets, and full results are maintained in the OSM meta-repository, <a href=\"https://github.com/nimh-dsst/open-science-metrics\">nimh-dsst/open-science-metrics</a>. Interactive results: <a href=\"https://www.opensciencemetrics.org\">opensciencemetrics.org</a>.</p>",
+  "creators": [
+    {
+      "name": "Lawrimore, Josh",
+      "affiliation": "Clinical Monitoring Research Program Directorate, Frederick National Laboratory for Cancer Research"
+    },
+    {
+      "name": "Li, Christoph",
+      "affiliation": "Data Science & Sharing Team, National Institute of Mental Health"
+    },
+    {
+      "name": "Moraczewski, Dustin",
+      "affiliation": "Data Science & Sharing Team, National Institute of Mental Health"
+    },
+    {
+      "name": "Poline, Jean-Baptiste",
+      "affiliation": "Department of Neurology and Neurosurgery, McGill University"
+    },
+    {
+      "name": "Thomas, Adam",
+      "affiliation": "Data Science & Sharing Team, National Institute of Mental Health"
+    }
+  ],
+  "license": "cc0-1.0",
+  "access_right": "open",
+  "keywords": [
+    "open science",
+    "open data",
+    "data sharing",
+    "FAIR principles",
+    "research funding",
+    "bibliometrics",
+    "OpenAlex",
+    "reproducibility",
+    "science of science",
+    "ICSSI 2026"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nimh-dsst/open-science-metrics",
+      "relation": "isPartOf",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.opensciencemetrics.org",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Poster presented at ICSSI 2026, University of Colorado Boulder, 29 June - 1 July 2026."
+}
